@@ -25,10 +25,19 @@ import React, { useState } from "react";
 function ClickEvent(props) {
   const [isConfirmed, setIsConfirmed] = useState(false);
   const handleConfirm = () => {
+    //prevIsConfirmed >> setState함수가 제공하는 이전 상태 값
     setIsConfirmed((prevIsConfirmed) => !prevIsConfirmed);
   };
   return (
-    <button onClick={handleConfirm} disabled={isConfirmed}>
+    // <div>
+    //   {isConfirmed ? (
+    //     <button onClick={handleConfirm}>확인하기</button>
+    //   ) : (
+    //     <button onClick={handleConfirm}>확인됨</button>
+    //   )}
+    // </div>
+
+    <button onClick={handleConfirm}>
       {isConfirmed ? "확인됨" : "확인하기"}
     </button>
   );

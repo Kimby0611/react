@@ -22,6 +22,14 @@ import UseRefPrev from "./w3example/UseRefPrev";
 import UseReducer from "./w3example/UseReducer";
 import UseCallBack from "./w3example/UseCallBack";
 import UseMemoW3 from "./w3example/UseMemoW3";
+import LandingPage from "./chapter_09/LandingPage";
+import LoginPrac from "./chapter_09/LoginPrac";
+import AttendanceBook from "./chapter_10/AttendanceBook";
+import SignUp from "./chapter_11/SignUp";
+import Calculator from "./chapter_12/Calculator";
+import CalPrac from "./chapter_12/CalPrac";
+import ProfileCard from "./chapter13/ProfileCard";
+import DarkOrLight from "./chapter13/DarkOrLight";
 
 function App() {
   return (
@@ -49,6 +57,14 @@ function App() {
         <Route path="/w3usecall" element={<UseCallBack />} />
         <Route path="/w3usereducer" element={<UseReducer />} />
         <Route path="/w3usememo" element={<UseMemoW3 />} />
+        <Route path="/logintool" element={<LandingPage />} />
+        <Route path="/loginprac" element={<LoginPrac />} />
+        <Route path="/attend" element={<AttendanceBook />} />
+        <Route path="/inputname" element={<SignUp />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/prac12" element={<CalPrac />} />
+        <Route path="/card" element={<ProfileCard />} />
+        <Route path="/theme" element={<DarkOrLight />} />
       </Routes>
     </Router>
   );

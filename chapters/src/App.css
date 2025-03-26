@@ -6,8 +6,30 @@
   display: flex;
   flex-wrap: wrap;
 }
-.div1 > section {
+section {
   margin-right: 50px;
+  margin-top: 40px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+button {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border: none;
+  background-color: lightblue;
+}
+button:hover {
+  background-color: aqua;
+  color: white;
 }
 
 .commentwrap {
