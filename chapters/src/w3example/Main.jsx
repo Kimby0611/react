@@ -49,6 +49,11 @@ const Main = () => {
           <p>useMemo</p>
           <button onClick={() => navigateTo("/w3usememo")}>click</button>
         </section>
+
+        <section>
+          <p>Form</p>
+          <button onClick={() => navigateTo("/w3form")}>click</button>
+        </section>
       </div>
     </div>
   );

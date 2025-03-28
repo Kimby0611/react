@@ -29,12 +29,29 @@ import SignUp from "./chapter_11/SignUp";
 import Calculator from "./chapter_12/Calculator";
 import CalPrac from "./chapter_12/CalPrac";
 import ProfileCard from "./chapter13/ProfileCard";
-import DarkOrLight from "./chapter13/DarkOrLight";
+import DarkOrLight from "./chapter_14/DarkOrLight";
+import Blocks from "./chapter_15/Blocks";
+import Select from "./chapter_11/Select";
+import MainPage from "./chapter-16-miniblog/page/MainPage";
+import MyForm from "./w3example/MyForm";
+import PostWritePage from "./chapter-16-miniblog/page/PostWritePage";
+import PostViewPage from "./chapter-16-miniblog/page/PostViewPage";
 
 function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/w3timer" element={<Timer />} />
+        <Route path="/w3exhome" element={<Main />} />
+        <Route path="/w3dbcont" element={<DoubleCounter />} />
+        <Route path="/w3usecontext" element={<UseContext />} />
+        <Route path="/w3userender" element={<UseRefRenderCount />} />
+        <Route path="/w3userefprev" element={<UseRefPrev />} />
+        <Route path="/w3usecall" element={<UseCallBack />} />
+        <Route path="/w3usereducer" element={<UseReducer />} />
+        <Route path="/w3usememo" element={<UseMemoW3 />} />
+        <Route path="/w3form" element={<MyForm />} />
+
         <Route path="/" element={<Homepage />} />
         <Route path="/chapter03" element={<Library />} />
         <Route path="/chapter04" element={<Clock />} />
@@ -48,23 +65,19 @@ function App() {
         <Route path="/useref" element={<UseRef />} />
         <Route path="/usecount" element={<Accommodate />} />
         <Route path="/clickevent" element={<ClickEvent />} />
-        <Route path="/w3timer" element={<Timer />} />
-        <Route path="/w3exhome" element={<Main />} />
-        <Route path="/w3dbcont" element={<DoubleCounter />} />
-        <Route path="/w3usecontext" element={<UseContext />} />
-        <Route path="/w3userender" element={<UseRefRenderCount />} />
-        <Route path="/w3userefprev" element={<UseRefPrev />} />
-        <Route path="/w3usecall" element={<UseCallBack />} />
-        <Route path="/w3usereducer" element={<UseReducer />} />
-        <Route path="/w3usememo" element={<UseMemoW3 />} />
         <Route path="/logintool" element={<LandingPage />} />
         <Route path="/loginprac" element={<LoginPrac />} />
         <Route path="/attend" element={<AttendanceBook />} />
         <Route path="/inputname" element={<SignUp />} />
+        <Route path="/select" element={<Select />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/prac12" element={<CalPrac />} />
         <Route path="/card" element={<ProfileCard />} />
         <Route path="/theme" element={<DarkOrLight />} />
+        <Route path="/block" element={<Blocks />} />
+        <Route path="/mini-home" element={<MainPage />} />
+        <Route path="/post-write" element={<PostWritePage />} />
+        <Route path="/post/:postId" element={<PostViewPage />} />
       </Routes>
     </Router>
   );

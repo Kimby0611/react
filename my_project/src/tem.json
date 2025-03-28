@@ -1,0 +1,218 @@
+[
+  {
+    "Location": 119,
+    "DateTime": "1:00",
+    "Temperature": 6.5,
+    "Precipitation": "",
+    "Wind": 0.7,
+    "Humidity": 75,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "2:00",
+    "Temperature": 5.4,
+    "Precipitation": "",
+    "Wind": 0.2,
+    "Humidity": 79,
+    "Cloud": 4
+  },
+  {
+    "Location": 119,
+    "DateTime": "3:00",
+    "Temperature": 5.2,
+    "Precipitation": "",
+    "Wind": 0.5,
+    "Humidity": 83,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "4:00",
+    "Temperature": 5.2,
+    "Precipitation": "",
+    "Wind": 1.6,
+    "Humidity": 82,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "5:00",
+    "Temperature": 5.1,
+    "Precipitation": "",
+    "Wind": 1.8,
+    "Humidity": 83,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "6:00",
+    "Temperature": 4.7,
+    "Precipitation": "",
+    "Wind": 0.7,
+    "Humidity": 85,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "7:00",
+    "Temperature": 4.7,
+    "Precipitation": "",
+    "Wind": 0.6,
+    "Humidity": 85,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "8:00",
+    "Temperature": 8.4,
+    "Precipitation": "",
+    "Wind": 3,
+    "Humidity": 66,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "9:00",
+    "Temperature": 10.8,
+    "Precipitation": "",
+    "Wind": 3.7,
+    "Humidity": 55,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "10:00",
+    "Temperature": 13.4,
+    "Precipitation": "",
+    "Wind": 3.6,
+    "Humidity": 45,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "11:00",
+    "Temperature": 15.6,
+    "Precipitation": "",
+    "Wind": 3.9,
+    "Humidity": 35,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "12:00",
+    "Temperature": 17.5,
+    "Precipitation": "",
+    "Wind": 3,
+    "Humidity": 32,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "13:00",
+    "Temperature": 19.8,
+    "Precipitation": "",
+    "Wind": 3.4,
+    "Humidity": 30,
+    "Cloud": 3
+  },
+  {
+    "Location": 119,
+    "DateTime": "14:00",
+    "Temperature": 21.7,
+    "Precipitation": "",
+    "Wind": 2.7,
+    "Humidity": 24,
+    "Cloud": 3
+  },
+  {
+    "Location": 119,
+    "DateTime": "15:00",
+    "Temperature": 23.3,
+    "Precipitation": "",
+    "Wind": 2.7,
+    "Humidity": 19,
+    "Cloud": 2
+  },
+  {
+    "Location": 119,
+    "DateTime": "16:00",
+    "Temperature": 24.5,
+    "Precipitation": "",
+    "Wind": 3.3,
+    "Humidity": 18,
+    "Cloud": 3
+  },
+  {
+    "Location": 119,
+    "DateTime": "17:00",
+    "Temperature": 24.2,
+    "Precipitation": "",
+    "Wind": 2.6,
+    "Humidity": 20,
+    "Cloud": 7
+  },
+  {
+    "Location": 119,
+    "DateTime": "18:00",
+    "Temperature": 24.1,
+    "Precipitation": "",
+    "Wind": 1.1,
+    "Humidity": 22,
+    "Cloud": 6
+  },
+  {
+    "Location": 119,
+    "DateTime": "19:00",
+    "Temperature": 21.3,
+    "Precipitation": "",
+    "Wind": 0.5,
+    "Humidity": 27,
+    "Cloud": 6
+  },
+  {
+    "Location": 119,
+    "DateTime": "20:00",
+    "Temperature": 18.8,
+    "Precipitation": "",
+    "Wind": 0.8,
+    "Humidity": 33,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "21:00",
+    "Temperature": 16.9,
+    "Precipitation": "",
+    "Wind": 1.9,
+    "Humidity": 38,
+    "Cloud": 2
+  },
+  {
+    "Location": 119,
+    "DateTime": "22:00",
+    "Temperature": 16,
+    "Precipitation": "",
+    "Wind": 1.8,
+    "Humidity": 42,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "23:00",
+    "Temperature": 15.5,
+    "Precipitation": "",
+    "Wind": 0.5,
+    "Humidity": 47,
+    "Cloud": 0
+  },
+  {
+    "Location": 119,
+    "DateTime": "0:00",
+    "Temperature": 14.7,
+    "Precipitation": "",
+    "Wind": 0.6,
+    "Humidity": 52,
+    "Cloud": 7
+  }
+]

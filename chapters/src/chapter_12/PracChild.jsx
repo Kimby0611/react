@@ -1,12 +1,47 @@
 import React from "react";
 
-const PracChild = (props) => {
-  const plusNum = (event) => {
-    props.onPlus(event.target.value);
-  };
+const PracChild = ({ input, onOperation, onInputChange, onEqual }) => {
   return (
     <div>
-      <input type="text" value={props.value} onChange={plusNum} />
+      <input
+        type="text"
+        value={input}
+        onChange={(e) => onInputChange(e.target.value)}
+        placeholder="숫자를 입력하세요."
+      />
+      <div>
+        <button
+          onClick={() => {
+            onOperation("+");
+          }}
+        >
+          +
+        </button>
+        <button
+          onClick={() => {
+            onOperation("-");
+          }}
+        >
+          -
+        </button>
+        <button
+          onClick={() => {
+            onOperation("*");
+          }}
+        >
+          *
+        </button>
+        <button
+          onClick={() => {
+            onOperation("/");
+          }}
+        >
+          /
+        </button>
+      </div>
+      <div>
+        <button onClick={onEqual}>=</button>
+      </div>
     </div>
   );
 };

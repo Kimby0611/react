@@ -1,13 +1,13 @@
 import React, { useCallback, useState } from "react";
-import ThemeContext from "../chapter_14/ThemeContext";
-import MainContext from "../chapter_14/MainContext";
+import ThemeContext from "./ThemeContext";
+import MainContext from "./MainContext";
 
 const DarkOrLight = () => {
   const [theme, setTheme] = useState("light");
   const toggleTheme = useCallback(() => {
-    if (theme == "light") {
+    if (theme === "light") {
       setTheme("dark");
-    } else if (theme == "dark") {
+    } else if (theme === "dark") {
       setTheme("light");
     }
   }, [theme]);
